@@ -1,3 +1,5 @@
 scp -P 22 MyFile.zip root@ip_server:/var/www
 
 ssh-keygen -R 103.235.73.150
+
+sudo chmod -R ugo+rw storage
